@@ -1,0 +1,60 @@
+/*Sets all HTML elements to border-box sizing.*/
+*{
+  box-sizing: border-box;
+}
+/*Sets opens sans as a global font and centers all text*/ 
+html * {
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  
+}
+
+h1 {
+  font-size: 50px;
+}
+/*Sets a color profile for the entire header while making margins 0 so it can be a uniform background with no blank spaces.*/
+h1, h3 {
+  background: #F1E3D3;
+  margin: 0;
+  color: #D88C9A;
+  text-align: center;
+  padding: 0;
+  height: 50 px;
+}
+/*Creates a gap between the image and the header*/
+img {
+  margin-top: 20px; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: block;
+}
+
+/*Aligns the bullets with the text*/
+ul, ol {
+  list-style-position: inside;
+}
+/*Gives color to the links after certain conditions are met*/
+a:link {color: blue;}
+a:visited {color:purple ;}
+a:hover {color: green;}
+
+/*Main body background and margin*/
+body{
+background: #E1BBC9;
+margin: 0;
+}
+
+/*Footer configuration to be same as header*/
+footer {
+  background: #F1E3D3;
+  margin: 0;
+  padding: 0;
+  color: #D88C9A;
+  text-align: center;
+}
+/* A class that centers*/
+.center {
+  margin: auto;
+  width: 50%;
+}
+
